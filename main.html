@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainBuddy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="images\Gemini_Generated_Image_azgsb5azgsb5azgs.png">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        #contact-detial {
+            z-index: 1000;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="m-0 p-0 font-sans bg-gray-50">
+
+    <header class="w-full bg-blue-600 text-white flex flex-col items-center justify-center text-center p-5 rounded-b-[50px] md:rounded-b-[50%] min-h-[60vh] shadow-2xl">
+        
+        <h1 id="page-name" class="text-4xl md:text-6xl font-bold mb-4 mt-4">
+            Welcome to SmartKidz HuB!
+        </h1>
+        
+        <p class="text-lg md:text-xl mb-8 max-w-2xl">
+            Welcome to SmartKidz HuB! is a platform where you can check your IQ and play various tasks to improve thinking capabilities.
+        </p>
+        
+        <img src="images\smartkidzhub.jpg" 
+             alt="smartkidzhuB logo image" 
+             id="logo" 
+             class="w-full max-w-[500px] h-auto mb-5 mix-blend-lighten">
+    </header>
+
+    <main class="w-full flex flex-col items-center justify-center text-center py-12 px-4">
+
+        <div id="contact-detial" class="bg-white shadow-md rounded-lg p-6 mb-8 w-full max-w-2xl">
+            <h4>Contact Detials</h4>
+            <hr class="border-t border-black mt-2">
+            <p id="contact" class="text-black text-lg md:text-xl mt-2">Email: smartkidzhub@yahoo.com<a href="mailto: mishrasatyam01473@gamil.com"> -Send Mail-</a></p>
+            <p class="text-black text-lg md:text-xl">Phone: +91 9321692704</p>
+            <p class="text-black text-lg md:text-xl">Address: 123, SmartKidz Hub Street, Knowledge City, EduState, 456789</p>
+            <p class="text-black text-lg md:text-xl">Working Hours: Mon-Fri: 9:00 AM - 6:00 PM</p>
+        </div>
+
+
+        <button id="start-btn" class="bg-white text-blue-600 border border-black px-8 py-4 text-xl rounded-full cursor-pointer transition duration-300 hover:bg-blue-600 hover:text-white hover:shadow-md mb-4">
+            Get Started
+        </button>
+        <p class="text-gray-700">Get Started with only a click.</p>
+    </main>
+
+    <nav class="w-full bg-[#ff3737] py-2 px-4 shadow-md">
+        <ul class="flex flex-wrap justify-center items-center gap-6 md:gap-20 list-none m-0 p-0">
+            <li><a href="iqTest.html" class="text-black text-lg md:text-xl no-underline px-4 py-2 transition duration-300 hover:bg-white hover:text-[#618ae8] hover:rounded-2xl hover:border hover:border-black block">IQ Test</a></li>
+            <li><a href="game.html" class="text-black text-lg md:text-xl no-underline px-4 py-2 transition duration-300 hover:bg-white hover:text-[#618ae8] hover:rounded-2xl hover:border hover:border-black block">Games</a></li>
+            <li><a href="parentMode.html" class="text-black text-lg md:text-xl no-underline px-4 py-2 transition duration-300 hover:bg-white hover:text-[#618ae8] hover:rounded-2xl hover:border hover:border-black block">Parent Mode</a></li>
+            <li  id="contact-Btn"><a class="text-black text-lg md:text-xl no-underline px-4 py-2 transition duration-300 hover:bg-white hover:text-[#618ae8] hover:rounded-2xl hover:border hover:border-black block">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <footer class="w-full bg-[#f4f4f4] flex flex-col items-center justify-center text-center p-5">
+        <p class="text-gray-600">&copy; 2025 SmartKidz Hub. All rights reserved.</p>
+    </footer>
+<script src="mainPageLogic.js"></script>
+</body>
+</html>
